@@ -34,16 +34,6 @@ export const Country = () => {
                
         }
 
-
-        
-    
-    
-    // console.log(countries)
-    // for(var i = 0; i<countries.length; i++) 
-    // {
-    //     console.log(countries[i])
-    // }
-
     return (
         <div className='container' >
             <div className='heading'><span>where in the world?</span></div>
