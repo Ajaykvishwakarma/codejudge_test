@@ -1,0 +1,65 @@
+.container{
+    
+    width:99% !important;
+    min-height: 700px ;
+    margin: auto;
+    background: gray;
+    
+}
+
+.input_container {
+
+    display: flex;
+    padding: 15px;
+}
+.heading {
+    width : 99%;
+    height : 30px;
+    border: 2px solid rgb(221, 204, 204);
+    text-align: left;
+
+    background: white;
+
+}
+
+.countries_details {
+  
+    width: 97%;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    padding:10px;
+    margin: auto;
+}
+
+.countries_details  > div {
+    width:100%;
+    height: 300px;
+    border: 1px solid rgb(204, 211, 204);
+    background: white;
+    text-align: left;
+    line-height: 5px;
+
+}
+.countries_details  > div > div:nth-child(1){
+
+    width:100%;
+    height:50%;
+
+}
+.countries_details  > div > div:nth-child(2)> p{
+    font-weight: bold;
+}
+
+.countries_details  > div > div:nth-child(2){
+    margin-left: 10px;
+}
+
+.countries_details  > div > div:nth-child(2)> p > span{
+    font-weight: lighter;
+}
+.image{
+    height:100%;
+    width: 100%;
+}
