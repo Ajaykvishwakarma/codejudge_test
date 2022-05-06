@@ -38,7 +38,7 @@ export const Country = () => {
         <div className='container' >
             <div className='heading'><span>where in the world?</span></div>
             <div className='input_container'>
-                <div> <input type="text" className='search-input' onChange={e => setText(e.target.value)}/> <button className='search-button' onClick={serchCity}>Search</button></div>
+                <div> <input type="text" className="search-input" onChange={e => setText(e.target.value)}/> <button className="search-button" onClick={serchCity}>Search</button></div>
                
             </div>
             <div className='countries_details'>

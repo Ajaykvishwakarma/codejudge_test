@@ -6,7 +6,9 @@
     background: gray;
     
 }
-
+.country-list-0{
+    width:300px;
+}
 .input_container {
 
     display: flex;
